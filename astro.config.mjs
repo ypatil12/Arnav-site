@@ -6,5 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
+    site:'https://ananda04.github.io/'
+    base:'Arnav-site'
   },
 });
